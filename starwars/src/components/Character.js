@@ -27,7 +27,7 @@ function Characters (props) {
     return (
         <AppDiv>
             <Appsection>
-                <AppH3Style>Name: {props.name}</AppH3Style>
+                <AppH3Style>{props.name}</AppH3Style>
                 <h3>Height: {props.height}</h3>
                 <h3>Mass: {props.mass}</h3>
                 <h3>Hair Color: {props.hair}</h3>
