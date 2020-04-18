@@ -28,8 +28,8 @@ function Characters (props) {
         <AppDiv>
             <Appsection>
                 <AppH3Style>{props.name}</AppH3Style>
-                <h3>Height: {props.height}</h3>
-                <h3>Mass: {props.mass}</h3>
+                <h3>Height: {props.height}cm</h3>
+                <h3>Mass: {props.mass}kg</h3>
                 <h3>Hair Color: {props.hair}</h3>
                 <h3>Skin Color: {props.skin}</h3>
             </Appsection>
