@@ -1,5 +1,15 @@
 // Write your Character component here
 import React from 'react';
+import styled from 'styled-components';
+
+const section = styled.div`
+width: 30%;
+padding: 2%;
+background-color: red;
+border-radius: 8px;
+box-sizing: border-box;
+margin: 20px 0;
+`
 
 function Characters (props) {
     return (
@@ -12,7 +22,7 @@ function Characters (props) {
                 <h3>Skin Color: {props.skin}</h3>
             </section>
         </div>
-    )
-}
+    );
+};
 
 export default Characters;
